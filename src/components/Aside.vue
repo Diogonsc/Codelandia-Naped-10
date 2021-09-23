@@ -66,7 +66,7 @@ export default {};
 
 .aside-container {
   max-width: 1440px;
-  padding: 0 4rem;
+  padding: 6rem 4rem 0rem 4rem;
 }
 
 .aside-intro > h2 {
@@ -312,6 +312,7 @@ export default {};
 @media screen and (min-width: 1440px) {
   .aside-container {
     padding: 0rem 11rem;
+     padding: 6rem 11rem 0rem 11rem;
   }
 }
 </style>

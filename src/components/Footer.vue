@@ -37,7 +37,7 @@ export default {};
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   margin: 4rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 #p-footer{

@@ -161,13 +161,12 @@ export default {};
 <style scoped>
 .main-article {
   width: 100%;
-  height: 200vh;
 }
 
 .article-container {
-  padding: 2rem 4rem 0rem 4rem;
+  padding: 4rem 4rem 0rem 4rem;
   max-width: 1440px;
-  overflow: auto;
+  max-height: 900px;
   display: grid;
   grid-template-areas: "pain  deed  mine  harry  super dragon onde, revisions";
 }
@@ -204,7 +203,7 @@ export default {};
 .pain {
   display: flex;
   grid-area: pain;
-  width: 761px;
+  width: 730px;
   height: 151px;
   box-sizing: border-box;
   margin-bottom: 40px;
@@ -219,7 +218,7 @@ export default {};
 
 .deed-pool {
   grid-area: deed;
-  width: 761px;
+  width: 730px;
   display: flex;
   margin-bottom: 40px;
 }
@@ -233,7 +232,7 @@ export default {};
 
 .minecraft {
   grid-area: mine;
-  width: 761px;
+  width: 730px;
   display: flex;
   margin-bottom: 40px;
 }
@@ -247,7 +246,7 @@ export default {};
 
 .harry-potter {
   grid-area: harry;
-  width: 761px;
+  width: 730px;
   display: flex;
   margin-bottom: 40px;
 }
@@ -261,7 +260,7 @@ export default {};
 
 .super-natural {
   grid-area: super;
-  width: 761px;
+  width: 730px;
   display: flex;
 }
 
@@ -469,7 +468,18 @@ export default {};
 
 @media screen and (min-width: 1440px) {
   .article-container {
-    padding: 2rem 11rem 0rem 11rem;
+    padding: 4rem 11rem 0rem 11rem;
+  }
+
+  .article-geral {
+    width: 65%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+   .article-geral{
+     width: 39%;
+   }
+}
+
 </style>

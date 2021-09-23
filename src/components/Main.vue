@@ -51,7 +51,7 @@ export default {};
 }
 
 #main-container {
-  max-width: 100%;
+  max-width: 1440px;
   padding: 0rem 4rem 0rem 4rem;
   box-sizing: border-box;
 }

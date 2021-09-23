@@ -26,7 +26,7 @@
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
- /* border: 2px solid red; */
+ /*border: 2px solid red; */
 }
 
 .btn {
@@ -67,7 +67,7 @@
   background-color: transparent;
   border: 2px solid #8257e6;
   color: #fefbfb;
-  opacity: 0.8;
+  opacity: 0.5;
   font-size: 0.8rem;
   font-family: "lexend deca", sans-serif;
   border-radius: 15px;
@@ -94,7 +94,7 @@
   a {
     text-decoration: none;
     color: #cdcdcd;
-    opacity: 0.8;
+    opacity: 0.5;
 
     &.router-link-exact-active {
       color: #fefbfb;
