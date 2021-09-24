@@ -128,21 +128,21 @@
           <h2>Lorem ipsum dolor</h2>
           <hr />
           <div class="chihiro-img">
-            <button id="btn-chihiro">Lorem</button>
+            <button id="btn">Lorem</button>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               eros tellus, malesuada et velit in, blandit molestie dolor.
             </p>
           </div>
           <div class="rede-social-img">
-            <button id="btn-rede">Lorem</button>
+            <button id="btn">Lorem</button>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               eros tellus, malesuada et velit in, blandit molestie dolor.
             </p>
           </div>
           <div class="kratos-img">
-            <button id="btn-kratos">Lorem</button>
+            <button id="btn">Lorem</button>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               eros tellus, malesuada et velit in, blandit molestie dolor.
@@ -176,14 +176,14 @@ export default {};
 }
 
 .article-geral {
-  width: 66%;
-  height: 65%;
+  width: 46.5rem;
+  height: 57rem;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 .article-geral::-webkit-scrollbar {
-  width: 8px;
+  width: 0.5rem;
   border-radius: 4px;
   background-color: #282830;
 }
@@ -194,8 +194,8 @@ export default {};
 }
 
 .pain-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/pain.png);
 }
@@ -203,128 +203,128 @@ export default {};
 .pain {
   display: flex;
   grid-area: pain;
-  width: 730px;
-  height: 151px;
+  width: 45.62rem;
+  height: 9.44rem;
   box-sizing: border-box;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .deedpool-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/deed-pool.png);
 }
 
 .deed-pool {
   grid-area: deed;
-  width: 730px;
+  width: 45.62rem;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .minecraft-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/minecraft-vendas\ 1.png);
 }
 
 .minecraft {
   grid-area: mine;
-  width: 730px;
+  width: 45.62rem;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .harry-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/harry-potter-wallpapers-desktop-86788224\ 1.png);
 }
 
 .harry-potter {
   grid-area: harry;
-  width: 730px;
+  width: 45.62rem;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .supernatural-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/supernatural\ 1.png);
 }
 
 .super-natural {
   grid-area: super;
-  width: 730px;
+  width: 45.62rem;
   display: flex;
 }
 
 .dragon-ball-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/dragon-ball.png);
 }
 
 .dragon-ball {
   grid-area: dragon;
-  width: 761px;
+  width: 45.62rem;
   display: flex;
 }
 
 .one-piece-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/one-piece-luffy.png);
 }
 
 .one-piece {
   grid-area: one;
-  width: 761px;
+  width: 45.62rem;
   display: flex;
 }
 
 .revisions-img {
-  width: 200px;
-  height: 151px;
+  width: 12.5rem;
+  height: 9.44rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/revisions.png);
 }
 
 .revisions {
   grid-area: revisions;
-  width: 761px;
+  width: 45.62rem;
   display: flex;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  padding: 5px 20px 0px 20px;
+  padding: 0.65rem 1.25rem 0rem 1.25rem;
 }
 
 .description > h4 {
-  width: 72%;
+  width: 22rem;
   color: #fefbfb;
   font-family: "lexend deca", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.90rem;
 }
 
 .description > p {
-  width: 52%;
+  width: 17rem;
   color: #c4c4c4;
   font-family: "inter", sans-serif;
   font-weight: 400;
   font-size: 0.6rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.90rem;
 }
 
 .description > span {
@@ -335,16 +335,21 @@ export default {};
 }
 
 .btn-description {
-  width: 100px;
-  height: 25px;
+  width: 6.25rem;
+  height: 1.56rem;
   font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
   border-radius: 3px;
   color: #fefbfb;
+  opacity: 0.7;
   background-color: #8257e6;
   border: none;
-  margin-top: 10px;
+  margin-top: 0.90rem;
+}
+
+.btn-description:hover {
+  opacity: 1;
 }
 
 .article-geral-1 {
@@ -353,117 +358,64 @@ export default {};
 
 .article-geral-1 > h2 {
   color: #fefbfb;
-  margin-bottom: 10px;
+  margin-bottom: 0.62rem;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "lexend deca", sans-serif;
 }
 
+.article-geral-1 p{
+  width: 16.5rem;
+  position: relative;
+  color: #fefbfb;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "lexend deca", sans-serif;
+  top: 9.37rem;
+  left: 1vw;
+}
+
 .article-geral-1 > hr {
-  width: 250px;
+  width: 15.62rem;
   border-color: #8257e6;
 }
 
+.article-geral-1 #btn {
+   position: relative;
+  width: 4vw;
+  height: 2.5vh;
+  font-size: 0.6rem;
+  font-family: "lexend deca", sans-serif;
+  background-color: #8257e6;
+  border-radius: 3px;
+  border: none;
+  color: #fefbfb;
+  top: 0.50rem;
+  left: 0.50rem;
+}
+
 .chihiro-img {
-  width: 338px;
-  height: 250px;
-  margin-top: 20px;
+  width: 21.12rem;
+  height: 15.62rem;
+  margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/A-Viagem-de-Chihiro-chihiro-e-haku\ 1.png);
 }
 
-.chihiro-img > p {
-  height: 2vh;
-  width: 20vw;
-  position: relative;
-  color: #fefbfb;
-  font-size: 0.8rem;
-  font-weight: 400;
-  font-family: "lexend deca", sans-serif;
-  top: 150px;
-  left: 1vw;
-}
-
-#btn-chihiro {
-  position: relative;
-  width: 4vw;
-  height: 2.5vh;
-  font-size: 0.6rem;
-  font-family: "lexend deca", sans-serif;
-  background-color: #8257e6;
-  border-radius: 3px;
-  border: none;
-  color: #fefbfb;
-  top: 5px;
-  left: 1vh;
-}
-
 .rede-social-img {
-  width: 338px;
-  height: 250px;
-  margin-top: 40px;
+   width: 21.12rem;
+  height: 15.62rem;
+  margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/cena-do-filme-a-rede-social-2010-1547503577708_v2_1920x1204\ 1.png);
 }
 
-.rede-social-img > p {
-  height: 2vh;
-  width: 20vw;
-  position: relative;
-  color: #fefbfb;
-  font-size: 0.8rem;
-  font-weight: 400;
-  font-family: "lexend deca", sans-serif;
-  top: 150px;
-  left: 1vw;
-}
-
-#btn-rede {
-  position: relative;
-  width: 4vw;
-  height: 2.5vh;
-  font-size: 0.6rem;
-  font-family: "lexend deca", sans-serif;
-  background-color: #8257e6;
-  border-radius: 3px;
-  border: none;
-  color: #fefbfb;
-  top: 5px;
-  left: 1vh;
-}
-
 .kratos-img {
-  width: 338px;
-  height: 250px;
-  margin-top: 40px;
+  width: 21.12rem;
+  height: 15.62rem;
+  margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/NarTrailer_Print09.max-1920x1200\ 1.png);
-}
-
-.kratos-img > p {
-  height: 2vh;
-  width: 20vw;
-  position: relative;
-  color: #fefbfb;
-  font-size: 0.8rem;
-  font-weight: 400;
-  font-family: "lexend deca", sans-serif;
-  top: 150px;
-  left: 1vw;
-}
-
-#btn-kratos {
-  position: relative;
-  width: 4vw;
-  height: 2.5vh;
-  font-size: 0.6rem;
-  font-family: "lexend deca", sans-serif;
-  background-color: #8257e6;
-  border-radius: 3px;
-  border: none;
-  color: #fefbfb;
-  top: 5px;
-  left: 1vh;
 }
 
 @media screen and (min-width: 1440px) {
@@ -472,13 +424,13 @@ export default {};
   }
 
   .article-geral {
-    width: 65%;
+    width: 46rem;
   }
 }
 
 @media screen and (max-width: 1024px) {
    .article-geral{
-     width: 39%;
+     width: 27.5rem;
    }
 }
 

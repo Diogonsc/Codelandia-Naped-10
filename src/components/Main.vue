@@ -98,8 +98,8 @@ export default {};
 }
 
 #img-main-plus{
-    width: 761px;
-    height: 350px;
+    width: 47.57rem;
+    height: 21.88rem;
     background-image:linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url(../assets/img/image01.png)
 }
 
@@ -112,8 +112,8 @@ export default {};
     border-radius: 3px;
     border: none;
     color: #fefbfb;
-    top: 20px;
-    left: 30px;
+    top: 1.25rem;
+    left: 1.88rem;
 }
 
 #img-main-plus > p {
@@ -123,8 +123,8 @@ export default {};
     font-size: 1.2rem;
     font-weight: 400;
     font-family: "lexend deca", sans-serif;
-    top: 224px;
-    left: 30px;
+    top: 14rem;
+    left: 1.88rem;
 }
 
 
@@ -135,8 +135,8 @@ export default {};
 }
 
 #imgs-main-1 {
-    width: 338px;
-    height: 165px;
+    width: 21.13rem;
+    height: 10.31rem;
     margin-left: 1.3rem;
     margin-bottom: 1.2rem;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@ export default {};
     border-radius: 3px;
     border: none;
     color: #fefbfb;
-    top: 15px;
+    top: 0.94rem;
     left: 2vh;
 }
 
@@ -166,13 +166,13 @@ export default {};
     font-size:0.8rem;
     font-weight: 400;
     font-family: "lexend deca", sans-serif;
-    top: 80px;
+    top: 5rem;
     left: 1vw;
 }
 
 #imgs-main-2{
-    width: 338px;
-    height: 165px;
+    width: 21.13rem;
+    height: 10.31rem;
     margin-left: 1.3rem;
     background-repeat: no-repeat;
     background-size: contain;
@@ -189,7 +189,7 @@ export default {};
     border-radius: 3px;
     border: none;
     color: #fefbfb;
-    top: 15px;
+    top: 0.94rem;
     left: 2vh;
 }
 
@@ -201,7 +201,7 @@ export default {};
     font-size:0.8rem;
     font-weight: 400;
     font-family: "lexend deca", sans-serif;
-    top: 80px;
+    top: 5rem;
     left: 1vw;
 }
 
