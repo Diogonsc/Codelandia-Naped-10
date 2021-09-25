@@ -15,7 +15,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="deed-pool">
@@ -30,7 +30,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="minecraft">
@@ -45,7 +45,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="harry-potter">
@@ -60,7 +60,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="super-natural">
@@ -75,7 +75,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="dragon-ball">
@@ -90,7 +90,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="one-piece">
@@ -105,7 +105,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
           <div class="revisions">
@@ -120,7 +120,7 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description">Ler notícias</button>
+              <button class="btn-description" @click="lerMais()">Ler notícias</button>
             </div>
           </div>
         </div>
@@ -155,7 +155,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {}
+  },
+  methods: {
+    lerMais() {
+      this.$router.push({ name: "Noticias" });
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -176,7 +185,7 @@ export default {};
 }
 
 .article-geral {
-  width: 46.5rem;
+  width: 39.5rem;
   height: 57rem;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -424,7 +433,7 @@ export default {};
   }
 
   .article-geral {
-    width: 46rem;
+    width: 37.5rem;
   }
 }
 

@@ -1,13 +1,19 @@
 <template>
   <div class="games">
-    <h1>Games</h1>
+    <NotFound />
   </div>
 </template>
 
+<script>
+import NotFound from "../page/NotFound.vue"
+export default {
+  name: "Games",
+  components: {
+    NotFound,
+  }
+};
+</script>
 
 <style scoped>
-  h1 {
-    text-align: center;
-    color: #fefbfb;
-  }
+
 </style>

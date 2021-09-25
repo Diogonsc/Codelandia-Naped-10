@@ -20,7 +20,7 @@ const routes = [
     path: "/filmes",
     name: "Filmes",
     component: () =>
-      import("../views/Filmes"),
+      import("../page/NotFound"),
   },
   {
     path: "/animes",
@@ -34,6 +34,12 @@ const routes = [
     component: () =>
       import("../views/Games"),
   },
+  {
+    path: "/noticias",
+    name: "Noticias",
+    component: () =>
+       import("../page/Noticias"),
+  }
 ];
 
 const router = new VueRouter({

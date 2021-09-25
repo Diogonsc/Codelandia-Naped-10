@@ -71,7 +71,7 @@ export default {};
 
 .aside-intro > h2 {
   color: #fefbfb;
-  margin-bottom: 0,63rem;
+  margin-bottom: 0, 63rem;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "lexend deca", sans-serif;
@@ -122,7 +122,7 @@ export default {};
 
 .naoko-img {
   grid-area: naoko;
-  width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
@@ -131,7 +131,7 @@ export default {};
 }
 
 .gta-img {
- width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
@@ -141,7 +141,7 @@ export default {};
 
 .vikings-img {
   grid-area: vikings;
-  width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
@@ -151,7 +151,7 @@ export default {};
 
 .soul-img {
   grid-area: soul;
-  width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -161,7 +161,7 @@ export default {};
 
 .your-img {
   grid-area: your;
-   width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -171,7 +171,7 @@ export default {};
 
 .key-img {
   grid-area: key;
-   width: 21.12rem;
+  width: 19.12rem;
   height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -182,7 +182,7 @@ export default {};
 @media screen and (min-width: 1440px) {
   .aside-container {
     padding: 0rem 11rem;
-     padding: 6rem 11rem 0rem 11rem;
+    padding: 6rem 11rem 0rem 11rem;
   }
 }
 </style>
