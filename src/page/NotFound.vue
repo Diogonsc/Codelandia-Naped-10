@@ -8,7 +8,7 @@
             <p>
               A página que você está procurando pode ter sido removida ou está temporariamente indisponível.
             </p>
-            <button >Voltar a home</button>
+            <button @click="voltaHome()">Voltar a home</button>
           </div>
           <div class="not-2">
            <div>
@@ -23,7 +23,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+   data() {
+    return {}
+  },
+  methods: {
+    voltaHome() {
+      this.$router.push({ name: "Home" });
+    }
+  }
+};
 </script>
 
 <style scoped>

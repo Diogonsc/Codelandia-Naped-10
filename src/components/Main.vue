@@ -46,7 +46,7 @@ export default {};
 </script>
 
 <style scoped>
-.main-header {
+.main {
   width: 100%;
 }
 
@@ -54,10 +54,6 @@ export default {};
   max-width: 1440px;
   padding: 0rem 4rem 0rem 4rem;
   box-sizing: border-box;
-}
-
-#main-container {
-    max-width: 1440px;
 }
 
 #main-background1 {

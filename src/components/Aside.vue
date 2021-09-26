@@ -6,42 +6,42 @@
         <hr />
         <div class="aside-image">
           <div class="img-geral">
-            <div class="naoko-img">
+            <div class="naoko-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 eros tellus, malesuada et velit in, blandit molestie dolor.
               </p>
             </div>
-            <div class="gta-img">
+            <div class="gta-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 eros tellus, malesuada et velit in, blandit molestie dolor.
               </p>
             </div>
-            <div class="vikings-img">
+            <div class="vikings-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 eros tellus, malesuada et velit in, blandit molestie dolor.
               </p>
             </div>
-            <div class="soul-img">
+            <div class="soul-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 eros tellus, malesuada et velit in, blandit molestie dolor.
               </p>
             </div>
-            <div class="your-img">
+            <div class="your-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 eros tellus, malesuada et velit in, blandit molestie dolor.
               </p>
             </div>
-            <div class="key-img">
+            <div class="key-img img">
               <button id="btn">Lorem</button>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -94,6 +94,11 @@ export default {};
   flex-wrap: wrap;
 }
 
+.img:hover {
+ box-shadow: 0 14px 28px rgba(133, 130, 130, 0.25),
+    0 10px 10px rgba(133, 130, 130, 0.22);
+}
+
 .img-geral p {
   height: 2vh;
   width: 20vw;
@@ -128,6 +133,8 @@ export default {};
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/Vidas-ao-Vento-Naoko.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .gta-img {
@@ -137,6 +144,8 @@ export default {};
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/GTA-5-PlayStation-5-Rockstar-Games-Sony-2020.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .vikings-img {
@@ -147,6 +156,8 @@ export default {};
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/Vikings-Série-Derivada.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .soul-img {
@@ -157,6 +168,8 @@ export default {};
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/soul-disney-pixar-1220-1400x800-5.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .your-img {
@@ -167,6 +180,8 @@ export default {};
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/your-name-2\ 1.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .key-img {
@@ -177,6 +192,8 @@ export default {};
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
     url(../assets/img/key-visual\ 1.png);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 @media screen and (min-width: 1440px) {

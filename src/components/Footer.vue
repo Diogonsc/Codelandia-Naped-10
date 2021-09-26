@@ -27,6 +27,9 @@ export default {};
 </script>
 
 <style scoped>
+.footer{
+  padding-top: 4rem;
+}
 .logo-footer {
   width: 100%;
   color: #c4c4c4;

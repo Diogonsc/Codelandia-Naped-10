@@ -1,13 +1,22 @@
 <template>
   <div class="animes">
-    <h1>Animes</h1>
+    <PageAnimes />
   </div>
 </template>
 
+<script>
+import PageAnimes from "@/page/PageAnimes.vue"
+export default {
+  name: "Animes",
+  components: {
+    PageAnimes,
+  },
+};
+</script>
 
 <style scoped>
-  h1 {
-    text-align: center;
-    color: #fefbfb;
-  }
+h1 {
+  text-align: center;
+  color: #fefbfb;
+}
 </style>
