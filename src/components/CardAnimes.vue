@@ -98,10 +98,10 @@ export default {}
 
 <style>
 .card-container {
-  width: 100%;
-  display: flex;
+display: flex;
+    justify-content:center;
+    width: 100%;
   flex-wrap: wrap;
-  padding: 0rem 4rem 0rem 4rem;
 }
 
 .card {
@@ -109,7 +109,7 @@ export default {}
   border-radius: 2px;
   display: inline-block;
   height: 250px;
-  margin: 1rem;
+  margin: 1.2rem;
   position: relative;
   width: 300px;
 }
@@ -215,11 +215,22 @@ ul.pagination li a:hover:not(.active) {color: #8257e6;}
 
 
 @media screen and (min-width: 1440px) {
+
+  .card-container {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
   
 .card {
   width: 338px;
   margin: 1.5rem;
-  background-repeat: no-repeat;
+}
+
+.card p{
+  width: 15.5rem;
 }
 }
 

@@ -429,11 +429,11 @@ export default {
 
 @media screen and (min-width: 1440px) {
   .article-container {
-    padding: 4rem 11rem 0rem 11rem;
+    padding: 4rem 7rem 0rem 7rem;
   }
 
   .article-geral {
-    width: 37.5rem;
+    width: 45.5rem;
   }
 }
 

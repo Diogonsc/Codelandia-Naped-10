@@ -62,10 +62,6 @@ p {
   line-height: 2rem;
 }
 
-.banner {
-  width: 100%;
-}
-
 .banner-conteiner {
   max-width: 1440px;
   padding: 4rem 4rem 0rem 4rem;
@@ -126,12 +122,21 @@ input#search-bar {
   color: #989898;
 }
 
+.search-icon:hover {
+   color: #008abf;
+}
+
 @media screen and (min-width: 1440px) {
+
+  .banner{
+    padding: 0rem 2rem;
+  }
+
   input#search-bar{
-      width: 92%;
+      width: 97%;
   }
   .search-icon{
-      right: 25px;
+      right: -15px;
   }
 }
 

@@ -85,6 +85,11 @@ export default {};
 .aside-image {
   display: grid;
   grid-template-areas: "naoko  gta  vikings  soul  your  key";
+}  
+
+.img{
+   width: 20rem;
+   height: 15.62rem;
 }
 
 .img-geral {
@@ -127,8 +132,6 @@ export default {};
 
 .naoko-img {
   grid-area: naoko;
-  width: 19.12rem;
-  height: 15.62rem;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -138,8 +141,7 @@ export default {};
 }
 
 .gta-img {
-  width: 19.12rem;
-  height: 15.62rem;
+  grid-area: gta;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -150,8 +152,7 @@ export default {};
 
 .vikings-img {
   grid-area: vikings;
-  width: 19.12rem;
-  height: 15.62rem;
+  grid-area: gta;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -162,8 +163,7 @@ export default {};
 
 .soul-img {
   grid-area: soul;
-  width: 19.12rem;
-  height: 15.62rem;
+  grid-area: gta;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -174,8 +174,7 @@ export default {};
 
 .your-img {
   grid-area: your;
-  width: 19.12rem;
-  height: 15.62rem;
+  grid-area: gta;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -186,8 +185,7 @@ export default {};
 
 .key-img {
   grid-area: key;
-  width: 19.12rem;
-  height: 15.62rem;
+  grid-area: gta;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%),
@@ -198,8 +196,15 @@ export default {};
 
 @media screen and (min-width: 1440px) {
   .aside-container {
-    padding: 0rem 11rem;
-    padding: 6rem 11rem 0rem 11rem;
+    padding: 6rem 7rem 0rem 7rem;
+  }
+
+  .img{
+    width:21rem;
+  }
+
+  .img-geral p {
+    width: 15.5rem;
   }
 }
 </style>

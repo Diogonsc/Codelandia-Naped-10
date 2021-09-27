@@ -203,7 +203,7 @@ export default {};
 
 @media screen and (min-width: 1440px){
   #main-container {
-  padding: 0rem 11rem 0rem 11rem;
+  padding: 0rem 7rem;
 }
 }
 

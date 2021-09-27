@@ -78,6 +78,7 @@ export default {
     padding-top: 2rem;
   }
   .not-1{
+    width: 60%;
     padding-top: 5rem;
   }
   .not-2{
@@ -98,7 +99,7 @@ export default {
       padding-top: 5rem;
     }
     .not-1{
-      width:37rem;
+      width:45rem;
     }
   }
 </style>

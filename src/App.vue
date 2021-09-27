@@ -26,7 +26,7 @@
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
- /*border: 2px solid red; */
+ /* border: 2px solid red; */
 }
 
 .btn {
@@ -34,7 +34,7 @@
   height: 2rem;
   display: flex;
   justify-content: center;
- /* border: 2px solid red; */
+  /* border: 2px solid red; */
 }
 
 .logo {
@@ -42,7 +42,7 @@
   height: 2rem;
   display: flex;
   justify-content: center;
- /* border: 2px solid red; */
+   /* border: 2px solid red; */
 }
 
 .main-header {
@@ -83,7 +83,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 50px;
- /*border: 1px solid red; */
+ /* border: 2px solid red; */
 }
 
 #nav {
@@ -112,13 +112,13 @@
     width: 15rem;
     height: 2rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .btn {
     width: 15rem;
     height: 2rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
 </style>

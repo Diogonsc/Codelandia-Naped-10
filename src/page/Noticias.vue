@@ -82,7 +82,7 @@ export default {
 #title {
   color: #c4c4c4;
   font-family: "inter", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
   padding-top: 1.88rem;
 }
@@ -90,7 +90,7 @@ export default {
 #title-1 {
   color: #c4c4c4;
   font-family: "inter", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
   padding-top: 1.88rem;
 }
@@ -98,7 +98,7 @@ export default {
 #title-2 {
   color: #c4c4c4;
   font-family: "inter", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   padding-top: 1.25rem;
 }
@@ -130,7 +130,7 @@ h1 {
 p {
   color: #c4c4c4;
   font-family: "inter", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   padding-bottom: 1.25rem;
 }
@@ -147,16 +147,5 @@ span {
     padding: 6rem 11rem 0rem 11rem;
   }
   
-#title {
-  font-size: 1.3rem;
-}
-
-#title-1 {
-  font-size: 1.3rem;
-}
-
-#title-2 {
-  font-size: 1.3rem;
-}
 }
 </style>
