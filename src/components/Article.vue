@@ -15,7 +15,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="deed-pool">
@@ -30,7 +31,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="minecraft">
@@ -45,7 +47,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="harry-potter">
@@ -60,7 +63,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="super-natural">
@@ -75,7 +79,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="dragon-ball">
@@ -90,7 +95,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="one-piece">
@@ -105,7 +111,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
           <div class="revisions">
@@ -120,7 +127,8 @@
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </p>
               <span>00/00/0000</span>
-              <button class="btn-description" @click="lerMais()">Ler notícias</button>
+              <router-link tag="button" class="btn-description" to="/noticias">Ler notícias</router-link>
+              <!--<button class="btn-description" @click="lerMais()">Ler notícias</button> -->
             </div>
           </div>
         </div>
@@ -160,9 +168,10 @@ export default {
     return {}
   },
   methods: {
-    lerMais() {
+   /* lerMais() {
       this.$router.push({ name: "Noticias" });
     }
+    */
   }
 };
 </script>
